@@ -698,7 +698,6 @@ input[type=range]::-moz-range-thumb{width:12px;height:12px;border-radius:50%;bac
                       `🌐 Language: ${language}\n` +
                       `🔄 Attempt: ${attempt + 1}/${maxAttempts}`;
 
-      console.log(message);
       const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
       
       try {
